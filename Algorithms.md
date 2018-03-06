@@ -296,7 +296,7 @@ bike_data.plot(kind = "scatter",
 <pre><code># Initialize Model
 regression = linear_model.LinearRegression()
 
-# Fitting the model
+#Fitting the model
 regression.fit(X = pd.DataFrame(bike_data["temp"]), 
 			    y = bike_data["cnt"])
 </code></pre>
@@ -331,7 +331,7 @@ regression.fit(X = pd.DataFrame(bike_data["temp"]),
 <pre><code># Y-Intercept
 print(regression.intercept_)
 
-# Slope
+#Slope
 print(regression.coef_)
 </code></pre>
 <p><img src="https://lh3.googleusercontent.com/_YDOclWoZjXHfKM_ZtXktyNZrirqkcCJ8gMYmA0Jhz2potnVBhGAToF-0ZMaQ2CeY3s90RdRWyI7" alt="enter image description here"></p>
